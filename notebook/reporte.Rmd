@@ -1,0 +1,98 @@
+---
+title: "¿Quiénes votaron la IVE?"
+subtitle: "Un análisis con datos abiertos"
+author: "Adriana Chazarreta y Germán Rosati"
+affiliation: 'factor~data-IDAES-UNSAM'
+date: "`r Sys.Date()`"
+output: tint::tintPdf
+bibliography: skeleton.bib
+link-citations: yes
+---
+
+```{r setup, include=FALSE}
+library(tint)
+# invalidate cache when the package version changes
+knitr::opts_chunk$set(tidy = FALSE, cache.extra = packageVersion('tint'))
+options(htmltools.dir.version = FALSE)
+```
+
+# Introducción
+Se habló mucho en estos días del proyecto de ley de "Interrupción Voluntaria del Embarazo" (IVE). Básicamente, se contaron votos y se dijeron cosas como éstas:
+
+```{r ln, echo=FALSE, fig.cap="Nota de La Nación del 11/12/2020", fig.margin=TRUE, warning=FALSE, cache=TRUE, out.width='130%'}
+knitr::include_graphics('img/ln.png')
+```
+
+Descompongamos el titular y tratemos de operacionalizar las variables que menciona:
+
+- "los bonaerenses" -> habla de un efecto a nivel de "provincia" o "región"
+- "oficialistas" -> hace referencia al bloque
+- "jóvenes" -> bueno... éste es medio obvio
+
+Ejemplos abundan y todos coinciden en general en señalar estas variables como determinantes. En algunos casos, se mencionó que los varones eran menos proclives a votar de forma positiva.
+```{r p21, echo=FALSE, fig.cap="Nota de Página12 del 11/12/2020", fig.margin=TRUE, warning=FALSE, cache=TRUE, out.width='130%'}
+knitr::include_graphics('img/p12.png')
+```
+Ahora bien, cuando uno mira un poco la "metodología" atrás de estas variables se ve que en algunos casos están flojitas de papeles. Es decir, el proceso que lleva de los datos que se construyen a las conclusiones que se presentan parece estar un tanto sesgado hacia las prenociones que se tienen respecto a la votación. El caso del titular de la "tribuna de doctrina" es un bastante evidente.
+
+Vamos a ver un ejemplo:
+
+> Fueron 50 los legisladores de la Provincia [de Buenos Aires] que se pronunciaron a favor, un número que permitió contrarrestar los votos opositores del norte del país, que fueron 49, dado que, en la región norteña, la mayoría rechazó la ley.
+>
+> `r quote_footer('--- La Nación 11/12/2020')`
+
+Se observa cómo se utilizan conteos simples y distribuciones de frecuencias para llegar a las conclusiones. El problema acá es doble.
+
+```{r p122, echo=FALSE, fig.cap="Nota de Página12 del 11/12/2020", fig.margin=TRUE, warning=FALSE, cache=TRUE, out.width='130%'}
+knitr::include_graphics('img/p12_2.png')
+```
+- Por un lado, no se tiene en cuenta la distribución relativa de la variable: es bastante probable que Buenos Aires sea la provincia que mayor cantidad de legisladores aporte... a cualquier votación! Simplemente porque es la que mayor cantidad de legistadores tiene.
+
+- Por otro lado, estamos viendo de a una variable por vez... vemos primero la provincia, luego la edad, luego el bloque y así sucesivamente. El problema aquí se presenta si alguna de las variables está relacionada con otra. Por ejemplo, ¿qué pasaría si por algún motivo, las mujeres jóvenes tuvieran mayor probabilidad de votar a favor? ¿O si los legisladores del FDT de alguna provincia votaran de forma diferente al resto de sus compañeres de bloque? En términos estadísticos a este fenómen se lo llama "interacción", es decir, el efecto conjunto de dos variables sobre un mismo output.
+
+¿Cómo podríamos resolver ambos problemas? Una primera forma sería armar una bruta tabla que cruce todas las variable: género, edad, bloque, región y la variable dependiente (voto positivo o negativo). Para que nos demos una idea, esa tabla tendría aproximadamente unas 5.000 celdas. Así que, quizás no sea la forma más fácil de trabajar este problema.
+
+Vamos a ir por una segunda opción. Vamos a tratar de construir un modelo simple que nos permita extraer algunas conclusiones sobre estas cinco variables y nos permita presentar la información de forma más compacta.
+
+## Modelando el voto a la IVE
+Sin ponernos extremadamente técnicos, digamos que lo que intentamos hacer el estimar la probabilidad que cada diputade tiene de haber votado a favor del proyecto IVE. A su vez, esa probabilidad la "modelamos" (guau, datos, machine learning, inteligencia artificial...) como una función del género, la región, el bloque y la edad de cada une.
+
+```{marginfigure}
+Para ser más exactos (y hacernos les capes), modelamos la probabilidad con la sigueinte fórmula:
+$$P(y=1 | X) = \frac{1}{1 + \epsilon^{(\beta_{0} + \beta_{1}X_{1} + \beta_{2}X_{2} + \beta_{3}X_{3} + \beta_{4} X_{4}}}$$
+
+Dónde $P(y=1)$ es la probabilidad de voto afirmativo; $X_{1}$ es el género, $X_{2}$ es la edad, $X_{3}$ es el bloque, $X_{4}$ es la región.
+
+Este modelo se llama _regresión logística_.
+```
+
+## Ahora sí... ¿quiénes votaron qué?
+
+
+```{r pvalores, echo=FALSE, fig.cap="Variables relevantes para explicar el voto de les diputades", fig.fullwidth=TRUE, warning=FALSE, cache=TRUE, out.width='80%'}
+knitr::include_graphics('img/pvalores.png')
+```
+
+```{r pba, echo=FALSE, fig.cap="Interacciones entre variables para explicar el voto de les diputades de Buenos Aires", fig.fullwidth=TRUE, warning=FALSE, cache=TRUE, out.width='80%'}
+knitr::include_graphics('img/buenos_aires.png')
+```
+
+```{r caba, echo=FALSE, fig.cap="Interacciones entre variables para explicar el voto de les diputades de CABA", fig.fullwidth=TRUE, warning=FALSE, cache=TRUE, out.width='80%'}
+knitr::include_graphics('img/CABA.png')
+```
+
+```{r centro, echo=FALSE, fig.cap="Interacciones entre variables para explicar el voto de les diputades de la región Centro", fig.fullwidth=TRUE, warning=FALSE, cache=TRUE, out.width='80%'}
+knitr::include_graphics('img/centro.png')
+```
+
+```{r nea, echo=FALSE, fig.cap="Interacciones entre variables para explicar el voto de les diputades de la región NEA", fig.fullwidth=TRUE, warning=FALSE, cache=TRUE, out.width='80%'}
+knitr::include_graphics('img/NEA.png')
+```
+
+```{r noa, echo=FALSE, fig.cap="Interacciones entre variables para explicar el voto de les diputades de la región NOA", fig.fullwidth=TRUE, warning=FALSE, cache=TRUE, out.width='80%'}
+knitr::include_graphics('img/NOA.png')
+```
+
+```{r patagonia, echo=FALSE, fig.cap="Interacciones entre variables para explicar el voto de les diputades de la región Patagonia", fig.fullwidth=TRUE, warning=FALSE, cache=TRUE, out.width='80%'}
+knitr::include_graphics('img/patagonia.png')
+```
