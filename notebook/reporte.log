@@ -1,0 +1,1030 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.12.16)  16 DEC 2020 22:40
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**reporte.tex
+(./reporte.tex
+LaTeX2e <2020-10-01> patch level 2
+L3 programming layer <2020-12-07> xparse <2020-03-03> (/home/grosati/.TinyTeX/t
+exmf-dist/tex/latex/tufte-latex/tufte-handout.cls
+Document Class: tufte-handout 2015/06/21 v3.5.2 Tufte-handout class
+(/home/grosati/.TinyTeX/texmf-dist/tex/latex/tufte-latex/tufte-common.def
+File: tufte-common.def 2015/06/21 v3.5.2 Common code for the Tufte-LaTeX styles
+
+(/home/grosati/.TinyTeX/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+(/home/grosati/.TinyTeX/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/home/grosa
+ti/.TinyTeX/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks15
+\XKV@tempa@toks=\toks16
+(/home/grosati/.TinyTeX/texmf-dist/tex/generic/xkeyval/keyval.tex))
+\XKV@depth=\count177
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (/home/grosati/.TinyTeX/texmf-dist/tex/latex/xifthen/xifthen.sty
+Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
+(/home/grosati/.TinyTeX/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count178
+\calc@Bcount=\count179
+\calc@Adimen=\dimen138
+\calc@Bdimen=\dimen139
+\calc@Askip=\skip47
+\calc@Bskip=\skip48
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count180
+\calc@Cskip=\skip49
+) (/home/grosati/.TinyTeX/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) (/home/grosati/.TinyTeX/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
+)) (/home/grosati/.TinyTeX/texmf-dist/tex/latex/hardwrap/hardwrap.sty
+Package: hardwrap 2011/02/12 v0.2 Hard wrap messages
+(/home/grosati/.TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+(/home/grosati/.TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (/home/grosati/.TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+) (/home/grosati/.TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (/home/grosati/.TinyTeX/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+\hw@charcount=\count181
+\hw@wordcount=\count182
+\hw@maxprintline=\count183
+(|kpsewhich -var-value=max_print_line))
+Class tufte-handout Info: Loading the base class `article'
+(/home/grosati/.TinyTeX/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(/home/grosati/.TinyTeX/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count184
+\c@section=\count185
+\c@subsection=\count186
+\c@subsubsection=\count187
+\c@paragraph=\count188
+\c@subparagraph=\count189
+\c@figure=\count190
+\c@table=\count191
+\abovecaptionskip=\skip50
+\belowcaptionskip=\skip51
+\bibindent=\dimen140
+) (/home/grosati/.TinyTeX/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+) (/home/grosati/.TinyTeX/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+) (/home/grosati/.TinyTeX/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2019/10/16 v2.13 Sectioning titles
+\ttl@box=\box47
+\beforetitleunit=\skip52
+\aftertitleunit=\skip53
+\ttl@plus=\dimen141
+\ttl@minus=\dimen142
+\ttl@toksa=\toks17
+\titlewidth=\dimen143
+\titlewidthlast=\dimen144
+\titlewidthfirst=\dimen145
+) (/home/grosati/.TinyTeX/texmf-dist/tex/latex/titlesec/titletoc.sty
+Package: titletoc 2019/10/16 v2.13 TOC entries
+\ttl@leftsep=\dimen146
+) (/home/grosati/.TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
+(/home/grosati/.TinyTeX/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+) (/home/grosati/.TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/home/grosati/.TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (/home/grosati/.TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (/home/grosati/.TinyTeX/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (/home/grosati/.TinyTeX/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (/home/grosati/.TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen147
+\Hy@linkcounter=\count192
+\Hy@pagecounter=\count193
+(/home/grosati/.TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (/home/grosati/.TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+) (/home/grosati/.TinyTeX/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count194
+Package hyperref Info: Option `unicode' set `true' on input line 4338.
+(/home/grosati/.TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2020-05-15 v7.00e Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `hyperfootnotes' set `false' on input line 4338.
+Package hyperref Info: Hyper figures OFF on input line 4464.
+Package hyperref Info: Link nesting OFF on input line 4469.
+Package hyperref Info: Hyper index ON on input line 4472.
+Package hyperref Info: Plain pages OFF on input line 4479.
+Package hyperref Info: Backreferencing OFF on input line 4484.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4717.
+\c@Hy@tempcnt=\count195
+(/home/grosati/.TinyTeX/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5076.
+\XeTeXLinkMargin=\dimen148
+(/home/grosati/.TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+(/home/grosati/.TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count196
+\Field@Width=\dimen149
+\Fld@charsize=\dimen150
+Package hyperref Info: Hyper figures OFF on input line 6347.
+Package hyperref Info: Link nesting OFF on input line 6352.
+Package hyperref Info: Hyper index ON on input line 6355.
+Package hyperref Info: backreferencing OFF on input line 6362.
+Package hyperref Info: Link coloring OFF on input line 6367.
+Package hyperref Info: Link coloring with OCG OFF on input line 6372.
+Package hyperref Info: PDF/A mode OFF on input line 6377.
+LaTeX Info: Redefining \ref on input line 6417.
+LaTeX Info: Redefining \pageref on input line 6421.
+(/home/grosati/.TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
+ge
+with kernel methods
+)
+\Hy@abspage=\count197
+\c@Item=\count198
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+(/home/grosati/.TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
+(/home/grosati/.TinyTeX/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
+e
+with kernel methods
+)
+\Fld@listcount=\count199
+\c@bookmark@seq@number=\count266
+(/home/grosati/.TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+(/home/grosati/.TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip54
+) (/home/grosati/.TinyTeX/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2019/07/28 v2.2 ragged2e Package (MS)
+(/home/grosati/.TinyTeX/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\CenteringLeftskip=\skip55
+\RaggedLeftLeftskip=\skip56
+\RaggedRightLeftskip=\skip57
+\CenteringRightskip=\skip58
+\RaggedLeftRightskip=\skip59
+\RaggedRightRightskip=\skip60
+\CenteringParfillskip=\skip61
+\RaggedLeftParfillskip=\skip62
+\RaggedRightParfillskip=\skip63
+\JustifyingParfillskip=\skip64
+\CenteringParindent=\skip65
+\RaggedLeftParindent=\skip66
+\RaggedRightParindent=\skip67
+\JustifyingParindent=\skip68
+) (/home/grosati/.TinyTeX/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+(/home/grosati/.TinyTeX/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count267
+\Gm@cntv=\count268
+\c@Gm@tempcnt=\count269
+\Gm@bindingoffset=\dimen151
+\Gm@wd@mp=\dimen152
+\Gm@odd@mp=\dimen153
+\Gm@even@mp=\dimen154
+\Gm@layoutwidth=\dimen155
+\Gm@layoutheight=\dimen156
+\Gm@layouthoffset=\dimen157
+\Gm@layoutvoffset=\dimen158
+\Gm@dimlist=\toks18
+) (/home/grosati/.TinyTeX/texmf-dist/tex/latex/changepage/changepage.sty
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count270
+\cp@tempcnt=\count271
+)
+\@tufte@overhang=\skip69
+\@tufte@fullwidth=\skip70
+\@tufte@caption@fill=\skip71
+(/home/grosati/.TinyTeX/texmf-dist/tex/latex/paralist/paralist.sty
+Package: paralist 2017/01/22 v2.7 Extended list environments
+\pltopsep=\skip72
+\plpartopsep=\skip73
+\plitemsep=\skip74
+\plparsep=\skip75
+\pl@lab=\toks19
+) (/home/grosati/.TinyTeX/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
+) (/home/grosati/.TinyTeX/texmf-dist/tex/latex/microtype/letterspace.sty
+Package: letterspace 2020/12/07 v2.8 Robust letterspacing (RS)
+LaTeX Info: Redefining \lsstyle on input line 346.
+LaTeX Info: Redefining \lslig on input line 347.
+LaTeX Info: Redefining \textls on input line 372.
+\MT@outer@kern=\dimen159
+) (/home/grosati/.TinyTeX/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+) (/home/grosati/.TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+(/home/grosati/.TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Package option `usenames' ignored on input line 216.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+(/home/grosati/.TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+(/home/grosati/.TinyTeX/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+) (/home/grosati/.TinyTeX/texmf-dist/tex/latex/xcolor/svgnam.def
+File: svgnam.def 2016/05/11 v2.12 Predefined colors according to SVG 1.1 (UK)
+)) (/home/grosati/.TinyTeX/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip76
+\bibsep=\skip77
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count272
+) (/home/grosati/.TinyTeX/texmf-dist/tex/latex/natbib/bibentry.sty
+Package: bibentry 2007/10/30 1.5 (PWD)
+)
+No file reporte.bbl.
+\c@@tufte@num@bibkeys=\count273
+(/home/grosati/.TinyTeX/texmf-dist/tex/latex/sauerj/optparams.sty
+Package: optparams 2004/08/14 v0.9 multiple optional parameters in macros
+)
+\@tufte@sidenote@vertical@offset=\skip78
+(/home/grosati/.TinyTeX/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+\@tufte@margin@floatbox=\box48
+\@tufte@figure@box=\box49
+\@tufte@caption@box=\box50
+\@tufte@caption@vertical@offset=\skip79
+\@tufte@float@contents@width=\skip80
+(/home/grosati/.TinyTeX/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip81
+\f@nch@O@elh=\skip82
+\f@nch@O@erh=\skip83
+\f@nch@O@olh=\skip84
+\f@nch@O@orh=\skip85
+\f@nch@O@elf=\skip86
+\f@nch@O@erf=\skip87
+\f@nch@O@olf=\skip88
+\f@nch@O@orf=\skip89
+)
+\tufteskipamount=\skip90
+(/home/grosati/.TinyTeX/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count274
+\mult@box=\box51
+\multicol@leftmargin=\dimen160
+\c@unbalance=\count275
+\c@collectmore=\count276
+\doublecol@number=\count277
+\multicoltolerance=\count278
+\multicolpretolerance=\count279
+\full@width=\dimen161
+\page@free=\dimen162
+\premulticols=\dimen163
+\postmulticols=\dimen164
+\multicolsep=\skip91
+\multicolbaselineskip=\skip92
+\partial@page=\box52
+\last@line=\box53
+\maxbalancingoverflow=\dimen165
+\mult@rightbox=\box54
+\mult@grightbox=\box55
+\mult@gfirstbox=\box56
+\mult@firstbox=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\c@minrows=\count280
+\c@columnbadness=\count281
+\c@finalcolumnbadness=\count282
+\last@try=\dimen166
+\multicolovershoot=\dimen167
+\multicolundershoot=\dimen168
+\mult@nat@firstbox=\box95
+\colbreak@box=\box96
+\mc@col@check@num=\count283
+))) (/home/grosati/.TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+(/home/grosati/.TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks20
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/home/grosati/.TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip93
+For additional information on amsmath, use the `?' option.
+(/home/grosati/.TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+(/home/grosati/.TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks21
+\ex@=\dimen169
+)) (/home/grosati/.TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen170
+) (/home/grosati/.TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count284
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count285
+\leftroot@=\count286
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count287
+\DOTSCASE@=\count288
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box97
+\strutbox@=\box98
+\big@size=\dimen171
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count289
+\c@MaxMatrixCols=\count290
+\dotsspace@=\muskip17
+\c@parentequation=\count291
+\dspbrk@lvl=\count292
+\tag@help=\toks22
+\row@=\count293
+\column@=\count294
+\maxfields@=\count295
+\andhelp@=\toks23
+\eqnshift@=\dimen172
+\alignsep@=\dimen173
+\tagshift@=\dimen174
+\tagwidth@=\dimen175
+\totwidth@=\dimen176
+\lineht@=\dimen177
+\@envbody=\toks24
+\multlinegap=\skip94
+\multlinetaggap=\skip95
+\mathdisplay@stack=\toks25
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+) (/home/grosati/.TinyTeX/texmf-dist/tex/latex/base/fixltx2e.sty
+Package: fixltx2e 2016/12/29 v2.1a fixes to LaTeX (obsolete)
+Applying: [2015/01/01] Old fixltx2e package on input line 46.
+
+Package fixltx2e Warning: fixltx2e is not required with releases after 2015
+(fixltx2e)                All fixes are now in the LaTeX kernel.
+(fixltx2e)                See the latexrelease package for details.
+
+Already applied: [0000/00/00] Old fixltx2e package on input line 53.
+) (/home/grosati/.TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+) (/home/grosati/.TinyTeX/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks26
+\inpenc@posthook=\toks27
+) (/home/grosati/.TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+(/home/grosati/.TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+(/home/grosati/.TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/home/grosati/.TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+)
+\Gin@req@height=\dimen178
+\Gin@req@width=\dimen179
+) (/home/grosati/.TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen180
+\lightrulewidth=\dimen181
+\cmidrulewidth=\dimen182
+\belowrulesep=\dimen183
+\belowbottomsep=\dimen184
+\aboverulesep=\dimen185
+\abovetopsep=\dimen186
+\cmidrulesep=\dimen187
+\cmidrulekern=\dimen188
+\defaultaddspace=\dimen189
+\@cmidla=\count296
+\@cmidlb=\count297
+\@aboverulesep=\dimen190
+\@belowrulesep=\dimen191
+\@thisruleclass=\count298
+\@lastruleclass=\count299
+\@thisrulewidth=\dimen192
+) (/home/grosati/.TinyTeX/texmf-dist/tex/latex/units/units.sty
+Package: units 1998/08/04 v0.9b Typesetting units
+(/home/grosati/.TinyTeX/texmf-dist/tex/latex/units/nicefrac.sty
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip96
+\L@UnitsRaiseTextstyle=\skip97
+\L@UnitsRaiseScriptstyle=\skip98
+)) (/home/grosati/.TinyTeX/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip99
+\LTright=\skip100
+\LTpre=\skip101
+\LTpost=\skip102
+\LTchunksize=\count300
+\LTcapwidth=\dimen193
+\LT@head=\box99
+\LT@firsthead=\box100
+\LT@foot=\box101
+\LT@lastfoot=\box102
+\LT@cols=\count301
+\LT@rows=\count302
+\c@LT@tables=\count303
+\c@LT@chunks=\count304
+\LT@p@ftn=\toks28
+) (/home/grosati/.TinyTeX/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box103
+\UL@hyphenbox=\box104
+\UL@skip=\skip103
+\UL@hook=\toks29
+\UL@height=\dimen194
+\UL@pe=\count305
+\UL@pixel=\dimen195
+\ULC@box=\box105
+Package: ulem 2019/11/18
+\ULdepth=\dimen196
+) (/home/grosati/.TinyTeX/texmf-dist/tex/latex/morefloats/morefloats.sty
+Package: morefloats 2015/07/22 v1.0h Raise limit of unprocessed floats (HMM)
+Package morefloats Info: Maximum number of possible floats asked for: 36
+(morefloats)             (i.e. 18 more floats).
+(morefloats)             LaTeX might run out of memory before this
+(morefloats)             (in which case it will notify you).
+) (/home/grosati/.TinyTeX/texmf-dist/tex/latex/roboto/roboto.sty
+Package: roboto 2019/12/11 (Bob Tennent) Supports Roboto fonts for all LaTeX en
+gines.
+(/home/grosati/.TinyTeX/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+) (/home/grosati/.TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+
+LaTeX Font Warning: Font shape `T1/cmr/c/n' undefined
+(Font)              using `T1/cmr/m/n' instead on input line 112.
+
+) (/home/grosati/.TinyTeX/texmf-dist/tex/latex/fontaxes/fontaxes.sty
+Package: fontaxes 2020/07/21 v1.0e Font selection axes
+LaTeX Info: Redefining \upshape on input line 29.
+LaTeX Info: Redefining \itshape on input line 31.
+LaTeX Info: Redefining \slshape on input line 33.
+LaTeX Info: Redefining \swshape on input line 35.
+LaTeX Info: Redefining \scshape on input line 37.
+LaTeX Info: Redefining \sscshape on input line 39.
+LaTeX Info: Redefining \ulcshape on input line 41.
+LaTeX Info: Redefining \textsw on input line 47.
+LaTeX Info: Redefining \textssc on input line 48.
+LaTeX Info: Redefining \textulc on input line 49.
+)
+LaTeX Info: Redefining \robotoTOsF on input line 396.
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 89.
+(/home/grosati/.TinyTeX/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2020/10/27 3.51 The Babel package
+(/home/grosati/.TinyTeX/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2020/10/27 3.51 Babel common definitions
+\babel@savecnt=\count306
+\U@D=\dimen197
+\l@babelnohyphens=\language4
+(/home/grosati/.TinyTeX/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count307
+(/home/grosati/.TinyTeX/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
+\es@quottoks=\toks30
+\es@quotdepth=\count308
+Package babel Info: Making " an active character on input line 561.
+Package babel Info: Making . an active character on input line 662.
+Package babel Info: Making < an active character on input line 707.
+Package babel Info: Making > an active character on input line 707.
+)) (/home/grosati/.TinyTeX/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+(/home/grosati/.TinyTeX/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen198
+\captionmargin@=\dimen199
+\captionwidth=\dimen256
+\caption@tempdima=\dimen257
+\caption@indent=\dimen258
+\caption@parindent=\dimen259
+\caption@hangindent=\dimen260
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count309
+\c@continuedfloat=\count310
+Package caption Info: changepage package is loaded.
+\caption@adjustwidth@hsize=\dimen261
+\caption@adjustwidth@linewidth=\dimen262
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+(/home/grosati/.TinyTeX/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
+))
+LaTeX Font Info:    Trying to load font information for T1+Roboto-LF on input l
+ine 214.
+(/home/grosati/.TinyTeX/texmf-dist/tex/latex/roboto/T1Roboto-LF.fd
+File: T1Roboto-LF.fd 2019/12/11 (autoinst) Font definitions for T1/Roboto-LF.
+)
+LaTeX Font Info:    Font shape `T1/Roboto-LF/c/n' aliased to
+(Font)              `T1/Roboto-LF/condensed/n' on input line 214.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/condensed/n' will be
+(Font)              scaled to size 10.0pt on input line 214.
+(/home/grosati/.TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
+\l__kernel_color_stack_int=\count311
+\l__pdf_internal_box=\box106
+) (./reporte.aux
+LaTeX Info: Redefining \. on input line 26.
+LaTeX Info: Redefining \% on input line 26.
+)
+\openout1 = `reporte.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 214.
+LaTeX Font Info:    ... okay on input line 214.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 214.
+LaTeX Font Info:    ... okay on input line 214.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 214.
+LaTeX Font Info:    ... okay on input line 214.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 214.
+LaTeX Font Info:    ... okay on input line 214.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 214.
+LaTeX Font Info:    ... okay on input line 214.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 214.
+LaTeX Font Info:    ... okay on input line 214.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 214.
+LaTeX Font Info:    ... okay on input line 214.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 214.
+LaTeX Font Info:    ... okay on input line 214.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 214.
+LaTeX Font Info:    ... okay on input line 214.
+Package hyperref Info: Link coloring ON on input line 214.
+(/home/grosati/.TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+(/home/grosati/.TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/home/grosati/.TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.st
+y
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count312
+)
+LaTeX Info: Redefining \ref on input line 214.
+LaTeX Info: Redefining \pageref on input line 214.
+LaTeX Info: Redefining \nameref on input line 214.
+(./reporte.out) (./reporte.out)
+\@outlinefile=\write3
+\openout3 = `reporte.out'.
+
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 214.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside asymmetric 
+* h-part:(L,W,R)=(72.26999pt, 312.0pt, 230.02501pt)
+* v-part:(T,H,B)=(72.26999pt, 616.0pt, 106.7pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=312.0pt
+* \textheight=616.0pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-42.0pt
+* \headheight=14.0pt
+* \headsep=28.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=144.0pt
+* \marginparsep=24.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\langwohyphens=\language5
+(/home/grosati/.TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+(/home/grosati/.TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\c@mv@tabular=\count313
+\c@mv@boldtabular=\count314
+LaTeX Info: Redefining \. on input line 214.
+LaTeX Info: Redefining \% on input line 214.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/bc/n' aliased to
+(Font)              `T1/Roboto-LF/boldcondensed/n' on input line 216.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/boldcondensed/n' will be
+(Font)              scaled to size 10.0pt on input line 216.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/bc/n' aliased to
+(Font)              `T1/Roboto-LF/boldcondensed/n' on input line 216.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/boldcondensed/n' will be
+(Font)              scaled to size 14.4pt on input line 216.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/lc/n' aliased to
+(Font)              `T1/Roboto-LF/lightcondensed/n' on input line 216.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/lightcondensed/n' will be
+(Font)              scaled to size 10.0pt on input line 216.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/lc/n' aliased to
+(Font)              `T1/Roboto-LF/lightcondensed/n' on input line 216.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/lightcondensed/n' will be
+(Font)              scaled to size 12.0pt on input line 216.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/bc/n' aliased to
+(Font)              `T1/Roboto-LF/boldcondensed/n' on input line 222.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/boldcondensed/n' will be
+(Font)              scaled to size 12.0pt on input line 222.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/c/n' aliased to
+(Font)              `T1/Roboto-LF/condensed/n' on input line 234.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/condensed/n' will be
+(Font)              scaled to size 8.0pt on input line 234.
+<img/ln.png, id=15, 1293.83376pt x 179.67125pt>
+File: img/ln.png Graphic file (type png)
+<use img/ln.png>
+Package pdftex.def Info: img/ln.png  used on input line 234.
+(pdftex.def)             Requested size: 187.19637pt x 25.99545pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 234.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (43.19637pt too wide) in paragraph at lines 234--234
+[]  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--234
+[]\T1/Roboto-LF/condensed/n/10 Figura 1: |[]Nota de La Na-ción del
+ []
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 235
+.
+(/home/grosati/.TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 235
+.
+(/home/grosati/.TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<img/p12.png, id=16, 833.1125pt x 372.39125pt>
+File: img/p12.png Graphic file (type png)
+<use img/p12.png>
+Package pdftex.def Info: img/p12.png  used on input line 256.
+(pdftex.def)             Requested size: 187.18797pt x 83.67076pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 256.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (43.18797pt too wide) in paragraph at lines 256--256
+[]  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--256
+[]\T1/Roboto-LF/condensed/n/10 Figura 2: |[]Nota de Pá-gi-na12 del
+ []
+
+LaTeX Font Info:    Font shape `T1/Roboto-LF/c/n' aliased to
+(Font)              `T1/Roboto-LF/condensed/n' on input line 268.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/condensed/n' will be
+(Font)              scaled to size 9.0pt on input line 268.
+<img/p12_2.png, id=17, 857.2025pt x 248.93pt>
+File: img/p12_2.png Graphic file (type png)
+<use img/p12_2.png>
+Package pdftex.def Info: img/p12_2.png  used on input line 281.
+(pdftex.def)             Requested size: 187.19867pt x 54.36214pt.
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 281.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (43.19867pt too wide) in paragraph at lines 281--281
+[]  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 281--281
+[]\T1/Roboto-LF/condensed/n/10 Figura 3: |[]Nota de Pá-gi-na12 del
+ []
+
+[1
+
+{/home/grosati/.TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./img/ln
+.png> <./img/p12.png> <./img/p12_2.png>]
+LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
+(Font)              `T1/Roboto-LF/regular/n' on input line 315.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
+(Font)              scaled to size 10.0pt on input line 315.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/m/n' aliased to
+(Font)              `T1/Roboto-LF/regular/n' on input line 315.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/regular/n' will be
+(Font)              scaled to size 10.95pt on input line 315.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/c/n' aliased to
+(Font)              `T1/Roboto-LF/condensed/n' on input line 321.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/condensed/n' will be
+(Font)              scaled to size 7.0pt on input line 321.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/c/n' aliased to
+(Font)              `T1/Roboto-LF/condensed/n' on input line 321.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/condensed/n' will be
+(Font)              scaled to size 6.0pt on input line 321.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/c/n' aliased to
+(Font)              `T1/Roboto-LF/condensed/n' on input line 321.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/condensed/n' will be
+(Font)              scaled to size 5.0pt on input line 321.
+
+LaTeX Warning: Marginpar on page 2 moved.
+
+
+Overfull \hbox (42.74844pt too wide) detected at line 327
+\OML/cmm/m/it/8 P\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 y \OT1/cmr/m/n/8 = 1\OMS/cmsy/
+m/n/8 j\OML/cmm/m/it/8 X\OT1/cmr/m/n/8 ) = []
+ []
+
+LaTeX Font Info:    Font shape `T1/Roboto-LF/c/it' aliased to
+(Font)              `T1/Roboto-LF/condensed/it' on input line 333.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/condensed/it' will be
+(Font)              scaled to size 8.0pt on input line 333.
+
+LaTeX Warning: Marginpar on page 2 moved.
+
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
+46.
+(/home/grosati/.TinyTeX/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+<img/pvalores.png, id=32, 488.5452pt x 376.2858pt>
+File: img/pvalores.png Graphic file (type png)
+<use img/pvalores.png>
+Package pdftex.def Info: img/pvalores.png  used on input line 381.
+(pdftex.def)             Requested size: 336.00072pt x 258.79344pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--382
+[]\T1/Roboto-LF/condensed/n/10 Figura 4: |Va-ria-bles re-le-van-tes pa-ra
+ []
+
+
+LaTeX Warning: Marginpar on page 2 moved.
+
+LaTeX Font Info:    Font shape `T1/Roboto-LF/c/sc' aliased to
+(Font)              `T1/Roboto-LF/condensed/sc' on input line 409.
+LaTeX Font Info:    Font shape `T1/Roboto-LF/condensed/sc' will be
+(Font)              scaled to size 10.0pt on input line 409.
+[2] [3 <./img/pvalores.png (PNG copy)>]
+<img/buenos_aires.png, id=61, 488.5452pt x 376.2858pt>
+File: img/buenos_aires.png Graphic file (type png)
+<use img/buenos_aires.png>
+Package pdftex.def Info: img/buenos_aires.png  used on input line 470.
+(pdftex.def)             Requested size: 384.00829pt x 295.76968pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+[]\T1/Roboto-LF/condensed/n/10 Figura 5: |In-ter-ac-cio-nes en-tre va-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--471
+\T1/Roboto-LF/condensed/n/10 ria-bles pa-ra ex-pli-car el vo-to de les
+ []
+
+[4 <./img/buenos_aires.png (PNG copy)>]
+<img/CABA.png, id=72, 488.5452pt x 376.2858pt>
+File: img/CABA.png Graphic file (type png)
+<use img/CABA.png>
+Package pdftex.def Info: img/CABA.png  used on input line 518.
+(pdftex.def)             Requested size: 384.00829pt x 295.76968pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 519--519
+[]\T1/Roboto-LF/condensed/n/10 Figura 6: |In-ter-ac-cio-nes en-tre va-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 519--519
+\T1/Roboto-LF/condensed/n/10 ria-bles pa-ra ex-pli-car el vo-to de les
+ []
+
+<img/centro.png, id=73, 488.5452pt x 376.2858pt>
+File: img/centro.png Graphic file (type png)
+<use img/centro.png>
+Package pdftex.def Info: img/centro.png  used on input line 521.
+(pdftex.def)             Requested size: 384.00829pt x 295.76968pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 522--522
+[]\T1/Roboto-LF/condensed/n/10 Figura 7: |In-ter-ac-cio-nes en-tre va-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 522--522
+\T1/Roboto-LF/condensed/n/10 ria-bles pa-ra ex-pli-car el vo-to de les
+ []
+
+<img/NEA.png, id=74, 488.5452pt x 376.2858pt>
+File: img/NEA.png Graphic file (type png)
+<use img/NEA.png>
+Package pdftex.def Info: img/NEA.png  used on input line 524.
+(pdftex.def)             Requested size: 384.00829pt x 295.76968pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--525
+[]\T1/Roboto-LF/condensed/n/10 Figura 8: |In-ter-ac-cio-nes en-tre va-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 525--525
+\T1/Roboto-LF/condensed/n/10 ria-bles pa-ra ex-pli-car el vo-to de les
+ []
+
+<img/NOA.png, id=75, 488.5452pt x 376.2858pt>
+File: img/NOA.png Graphic file (type png)
+<use img/NOA.png>
+Package pdftex.def Info: img/NOA.png  used on input line 527.
+(pdftex.def)             Requested size: 384.00829pt x 295.76968pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 528--528
+[]\T1/Roboto-LF/condensed/n/10 Figura 9: |In-ter-ac-cio-nes en-tre va-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 528--528
+\T1/Roboto-LF/condensed/n/10 ria-bles pa-ra ex-pli-car el vo-to de les
+ []
+
+<img/cuyo.png, id=76, 540.3387pt x 418.4433pt>
+File: img/cuyo.png Graphic file (type png)
+<use img/cuyo.png>
+Package pdftex.def Info: img/cuyo.png  used on input line 530.
+(pdftex.def)             Requested size: 384.01419pt x 297.38414pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 531--531
+[]\T1/Roboto-LF/condensed/n/10 Figura 10: |In-ter-ac-cio-nes en-tre va-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 531--531
+\T1/Roboto-LF/condensed/n/10 ria-bles pa-ra ex-pli-car el vo-to de les
+ []
+
+[5] [6 <./img/CABA.png (PNG copy)> <./img/centro.png (PNG copy)>] [7 <./img/NEA
+.png (PNG copy)> <./img/NOA.png (PNG copy)>]
+<img/patagonia.png, id=99, 488.5452pt x 376.2858pt>
+File: img/patagonia.png Graphic file (type png)
+<use img/patagonia.png>
+Package pdftex.def Info: img/patagonia.png  used on input line 534.
+(pdftex.def)             Requested size: 384.00829pt x 295.76968pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 535--535
+[]\T1/Roboto-LF/condensed/n/10 Figura 11: |In-ter-ac-cio-nes en-tre va-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 535--535
+\T1/Roboto-LF/condensed/n/10 ria-bles pa-ra ex-pli-car el vo-to de les
+ []
+
+
+Package bibentry Warning: You have used \nobibliography* 
+(bibentry)                without a following \bibliography.
+(bibentry)                You may not be able to run BibTeX.
+
+[8 <./img/cuyo.png (PNG copy)> <./img/patagonia.png (PNG copy)>] (./reporte.aux
+LaTeX Info: Redefining \. on input line 26.
+LaTeX Info: Redefining \% on input line 26.
+)
+Package rerunfilecheck Info: File `reporte.out' has not changed.
+(rerunfilecheck)             Checksum: 0BA41E613F298F95DC4E6D66F9D034F4;255.
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 15993 strings out of 481346
+ 239790 string characters out of 5918123
+ 580564 words of memory out of 5000000
+ 32467 multiletter control sequences out of 15000+600000
+ 489925 words of font info for 77 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 85i,11n,115p,316b,561s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/grosati/.TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.600pk
+>{/home/grosati/.TinyTeX/texmf-dist/fonts/enc/dvips/roboto/rbto_b5rac7.enc}{/ho
+me/grosati/.TinyTeX/texmf-dist/fonts/enc/dvips/roboto/rbto_shbyjm.enc}</home/gr
+osati/.TinyTeX/texmf-dist/fonts/type1/google/roboto/Roboto-Regular.pfb></home/g
+rosati/.TinyTeX/texmf-dist/fonts/type1/google/roboto/RobotoCondensed-Bold.pfb><
+/home/grosati/.TinyTeX/texmf-dist/fonts/type1/google/roboto/RobotoCondensed-Ita
+lic.pfb></home/grosati/.TinyTeX/texmf-dist/fonts/type1/google/roboto/RobotoCond
+ensed-Light.pfb></home/grosati/.TinyTeX/texmf-dist/fonts/type1/google/roboto/Ro
+botoCondensed-Regular.pfb></home/grosati/.TinyTeX/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi10.pfb></home/grosati/.TinyTeX/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmmi6.pfb></home/grosati/.TinyTeX/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi7.pfb></home/grosati/.TinyTeX/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi8.pfb></home/grosati/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr10.pfb></home/grosati/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr5.pfb></home/grosati/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.
+pfb></home/grosati/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb>
+</home/grosati/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></ho
+me/grosati/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home
+/grosati/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></home/gr
+osati/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></home/grosa
+ti/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on reporte.pdf (8 pages, 1356878 bytes).
+PDF statistics:
+ 207 PDF objects out of 1000 (max. 8388607)
+ 138 compressed objects within 2 object streams
+ 33 named destinations out of 1000 (max. 500000)
+ 1096 words of extra memory for PDF output out of 10000 (max. 10000000)
+

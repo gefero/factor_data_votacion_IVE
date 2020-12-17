@@ -3,6 +3,7 @@ library(broom)
 library(glmnet)
 library(janitor)
 library(caret)
+library(pROC)
 
 df <- read_csv('./data/datos_finales.csv')
 df <- tibble::rowid_to_column(df, "ID")
@@ -53,6 +54,9 @@ dip <- df %>%
         )
         )
 
+dip %>%
+        tabyl(region, bloque, votacion_final1)
+
 
 # Particion para tuneo
 set.seed(789654)
@@ -62,27 +66,6 @@ cv_tune <- createFolds(y=dip$votacion_final1,
                        returnTrain=TRUE)
 
 
-# Instanciación modelos
-## Regresion logistica
-glm_control <- trainControl(
-        method="cv",
-        number = 5,
-        index=cv_tune,
-        classProbs=TRUE,
-        summaryFunction=twoClassSummary
-)
-
-glm_mod <- train(
-         form = as.factor(votacion_final1) ~ genero + edad + region + bloque + 
-                 genero*edad + genero*bloque + genero*region + edad*bloque +
-                 region*bloque,
-         data = dip %>% select(-ID, -provincia),
-         trControl = glm_control,
-         preProc = c("center", "scale"),
-         method = "glm",
-         family = "binomial",
-         metric='ROC'
-)
 
 cv_errors <- list()
 rocs <- NA
@@ -117,8 +100,8 @@ tidy(m1) %>%
                 geom_bar(aes(x=p.value, y=reorder(term, -p.value), fill=p.value), 
                          stat='identity', show.legend = FALSE) +
                 scale_fill_viridis_c() +
-                geom_vline(xintercept = 0.05) +
-                geom_vline(xintercept = 0.10) +
+                geom_vline(xintercept = 0.05, color='yellow') +
+                geom_vline(xintercept = 0.10, color='blue') +
                 theme_minimal() +
                 labs(x='p-valor',
                      y='Variable')
@@ -179,6 +162,8 @@ ggsave('./notebook/img/CABA.png')
 get_effects(m1=m1, 'Centro')
 ggsave('./notebook/img/centro.png')
 
+get_effects(m1=m1, 'Cuyo')
+ggsave('./notebook/img/cuyo.png')
 
 get_effects(m1=m1, 'Patagonia')
 ggsave('./notebook/img/patagonia.png')
@@ -192,3 +177,27 @@ ggsave('./notebook/img/NOA.png')
         
         
 
+
+
+
+# Instanciación modelos
+## Regresion logistica
+glm_control <- trainControl(
+        method="cv",
+        number = 5,
+        index=cv_tune,
+        classProbs=TRUE,
+        summaryFunction=twoClassSummary
+)
+
+glm_mod <- train(
+        form = as.factor(votacion_final1) ~ genero + edad + region + bloque + 
+                genero*edad + genero*bloque + genero*region + edad*bloque +
+                region*bloque,
+        data = dip %>% select(-ID, -provincia),
+        trControl = glm_control,
+        preProc = c("center", "scale"),
+        method = "glm",
+        family = "binomial",
+        metric='ROC'
+)
