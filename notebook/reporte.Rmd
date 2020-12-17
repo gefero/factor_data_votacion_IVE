@@ -112,7 +112,7 @@ Vamos a ir por una segunda opción. Vamos a tratar de construir un modelo simple
 Sin ponernos extremadamente técnicos, digamos que lo que intentamos hacer es estimar la probabilidad que cada diputade tiene de haber votado a favor del proyecto IVE. A su vez, esa probabilidad la "modelamos"^[Que es una forma elegante de decir, "la analizamos como" o "la pensamos como"] como una función del género, la región, el bloque y la edad de cada une.
 
 ```{marginfigure}
-Para ser más exactos (y hacernos les capes), modelamos la probabilidad con la sigueinte fórmula:
+Para ser más exactos (y hacernos les capes), modelamos la probabilidad con la siguiente fórmula:
 $$P(y=1 | X) = \frac{1}{1 + \epsilon^{-(\beta_{0} + \beta_{1}X_{1} + \beta_{2}X_{2} + \beta_{3}X_{3} + \beta_{4} X_{4}}}$$
 
 Donde $P(y=1)$ es la probabilidad de voto afirmativo; $X_{1}$ es el género, $X_{2}$ es la edad, $X_{3}$ es el bloque, $X_{4}$ es la región.
@@ -177,9 +177,9 @@ $$P(y=1 | X) = \frac{1}{1 + \epsilon^{-(1 - 0.004 \times 34)}}=0.703$$
 
 Es decir que este diputade tendría una probabilidad de 70% de votar a favor de la IVE. Bancamos mucho a este diputade virtual.
 
-Ahora bien, con esta idea podemos construir "perfiles hipotéticos" de diputades que nos ayuden a entender mejor cómo interactúan las diferentes variables. A esta operación se la suele llamar [post-estimacion](https://stats.idre.ucla.edu/stata/webbooks/logistic/chapter3/lesson-3-logistic-regression-diagnostics/).
-
-Veamos: las figuras 5 a 11 realizan esta operacion para las diferentes regiones. Es decir, para cada región construyen "diputades frankestein" de diferentes edades, género y bloque y sus respectivas probabilidades de votar a favor de la IVE. A título de ejemplo, veamos la figura de de Buenos Aires
+  Ahora bien, con esta idea podemos construir "perfiles hipotéticos" de diputades que nos ayuden a entender mejor cómo interactúan las diferentes variables. A esta operación se la suele llamar [post-estimacion](https://stats.idre.ucla.edu/stata/webbooks/logistic/chapter3/lesson-3-logistic-regression-diagnostics/).
+  
+  Veamos: las figuras 5 a 11 realizan esta operacion para las diferentes regiones. Es decir, para cada región construyen "diputades frankestein" de diferentes edades, género y bloque y sus respectivas probabilidades de votar a favor de la IVE. A título de ejemplo, veamos la figura de de Buenos Aires
 
 ```{r pba, echo=FALSE, fig.cap="Interacciones entre variables para explicar el voto de les diputades de Buenos Aires", fig.fullwidth=TRUE, warning=FALSE, cache=TRUE, out.width='80%'}
 knitr::include_graphics('img/buenos_aires.png')
