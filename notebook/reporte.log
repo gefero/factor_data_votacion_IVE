@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.12.16)  16 DEC 2020 23:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.12.18)  18 DEC 2020 12:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -560,9 +560,9 @@ LaTeX Info: Redefining \robotoTOsF on input line 396.
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 89.
 (/home/grosati/.TinyTeX/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2020/10/27 3.51 The Babel package
+Package: babel 2020/12/16 3.52 The Babel package
 (/home/grosati/.TinyTeX/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2020/10/27 3.51 Babel common definitions
+File: babel.def 2020/12/16 3.52 Babel common definitions
 \babel@savecnt=\count306
 \U@D=\dimen197
 \l@babelnohyphens=\language4
@@ -834,7 +834,7 @@ LaTeX Font Info:    Font shape `T1/Roboto-LF/condensed/n' will be
 LaTeX Warning: Marginpar on page 2 moved.
 
 
-Overfull \hbox (42.74844pt too wide) detected at line 327
+Overfull \hbox (46.14426pt too wide) detected at line 327
 \OML/cmm/m/it/8 P\OT1/cmr/m/n/8 (\OML/cmm/m/it/8 y \OT1/cmr/m/n/8 = 1\OMS/cmsy/
 m/n/8 j\OML/cmm/m/it/8 X\OT1/cmr/m/n/8 ) = []
  []
@@ -994,8 +994,8 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  ) 
 Here is how much of TeX's memory you used:
  15993 strings out of 481346
- 239790 string characters out of 5918123
- 580564 words of memory out of 5000000
+ 239786 string characters out of 5918123
+ 580572 words of memory out of 5000000
  32467 multiletter control sequences out of 15000+600000
  489925 words of font info for 77 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -1021,7 +1021,7 @@ me/grosati/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home
 /grosati/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></home/gr
 osati/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></home/grosa
 ti/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on reporte.pdf (8 pages, 1356876 bytes).
+Output written on reporte.pdf (8 pages, 1356625 bytes).
 PDF statistics:
  207 PDF objects out of 1000 (max. 8388607)
  138 compressed objects within 2 object streams

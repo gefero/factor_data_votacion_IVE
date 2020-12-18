@@ -113,7 +113,7 @@ Sin ponernos extremadamente técnicos, digamos que lo que intentamos hacer es es
 
 ```{marginfigure}
 Para ser más exactos (y hacernos les capes), modelamos la probabilidad con la siguiente fórmula:
-$$P(y=1 | X) = \frac{1}{1 + \epsilon^{-(\beta_{0} + \beta_{1}X_{1} + \beta_{2}X_{2} + \beta_{3}X_{3} + \beta_{4} X_{4}}}$$
+$$P(y=1 | X) = \frac{1}{1 + e^{-(\beta_{0} + \beta_{1}X_{1} + \beta_{2}X_{2} + \beta_{3}X_{3} + \beta_{4} X_{4})}}$$
 
 Donde $P(y=1)$ es la probabilidad de voto afirmativo; $X_{1}$ es el género, $X_{2}$ es la edad, $X_{3}$ es el bloque, $X_{4}$ es la región.
 
@@ -169,11 +169,11 @@ Ahora bien, esto solo nos habla de la importancia de cada variable. Pero no nos 
 \pagebreak
 Supongamos, entonces, que la probabilidad de voto positivo dependiera solamente de la edad. En este ejemplo hipotético, corremos nuestra regresión y obtenemos el siguiente modelo:
 
-$$P(y=1 | X) = \frac{1}{1 + \epsilon^{-(1 - 0.004 \times edad)}}$$
+$$P(y=1 | X) = \frac{1}{1 + e^{-(1 - 0.004 \times edad)}}$$
 
 De esta forma, si imagináramos en une diputade que tiene 34 años podríamos calcular la probabilidad de voto afirmativo reemplazado $edad=34$:
 
-$$P(y=1 | X) = \frac{1}{1 + \epsilon^{-(1 - 0.004 \times 34)}}=0.703$$
+$$P(y=1 | X) = \frac{1}{1 + e^{-(1 - 0.004 \times 34)}}=0.703$$
 
 Es decir que este diputade tendría una probabilidad de 70% de votar a favor de la IVE. Bancamos mucho a este diputade virtual.
 
