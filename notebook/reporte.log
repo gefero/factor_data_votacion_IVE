@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.12.18)  18 DEC 2020 12:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.12.18)  18 DEC 2020 12:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -851,129 +851,130 @@ LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
 (/home/grosati/.TinyTeX/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-<img/pvalores.png, id=32, 488.5452pt x 376.2858pt>
-File: img/pvalores.png Graphic file (type png)
-<use img/pvalores.png>
-Package pdftex.def Info: img/pvalores.png  used on input line 381.
-(pdftex.def)             Requested size: 336.00072pt x 258.79344pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 382--382
-[]\T1/Roboto-LF/condensed/n/10 Figura 4: |Va-ria-bles re-le-van-tes pa-ra
- []
-
 
 LaTeX Warning: Marginpar on page 2 moved.
 
 LaTeX Font Info:    Font shape `T1/Roboto-LF/c/sc' aliased to
-(Font)              `T1/Roboto-LF/condensed/sc' on input line 409.
+(Font)              `T1/Roboto-LF/condensed/sc' on input line 411.
 LaTeX Font Info:    Font shape `T1/Roboto-LF/condensed/sc' will be
-(Font)              scaled to size 10.0pt on input line 409.
-[2] [3 <./img/pvalores.png (PNG copy)>]
-<img/buenos_aires.png, id=61, 488.5452pt x 376.2858pt>
+(Font)              scaled to size 10.0pt on input line 411.
+[2]
+<img/pvalores.png, id=59, 488.5452pt x 376.2858pt>
+File: img/pvalores.png Graphic file (type png)
+<use img/pvalores.png>
+Package pdftex.def Info: img/pvalores.png  used on input line 431.
+(pdftex.def)             Requested size: 336.00072pt x 258.79344pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 432--432
+[]\T1/Roboto-LF/condensed/n/10 Figura 4: |Va-ria-bles re-le-van-tes pa-ra
+ []
+
+[3 <./img/pvalores.png (PNG copy)>]
+<img/buenos_aires.png, id=67, 488.5452pt x 376.2858pt>
 File: img/buenos_aires.png Graphic file (type png)
 <use img/buenos_aires.png>
-Package pdftex.def Info: img/buenos_aires.png  used on input line 470.
+Package pdftex.def Info: img/buenos_aires.png  used on input line 505.
 (pdftex.def)             Requested size: 384.00829pt x 295.76968pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 471--471
+Underfull \hbox (badness 10000) in paragraph at lines 506--506
 []\T1/Roboto-LF/condensed/n/10 Figura 5: |In-ter-ac-cio-nes en-tre va-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 471--471
+Underfull \hbox (badness 10000) in paragraph at lines 506--506
 \T1/Roboto-LF/condensed/n/10 ria-bles pa-ra ex-pli-car el vo-to de les
  []
 
-[4 <./img/buenos_aires.png (PNG copy)>]
-<img/CABA.png, id=72, 488.5452pt x 376.2858pt>
+[4] [5 <./img/buenos_aires.png (PNG copy)>]
+<img/CABA.png, id=88, 488.5452pt x 376.2858pt>
 File: img/CABA.png Graphic file (type png)
 <use img/CABA.png>
-Package pdftex.def Info: img/CABA.png  used on input line 518.
+Package pdftex.def Info: img/CABA.png  used on input line 553.
 (pdftex.def)             Requested size: 384.00829pt x 295.76968pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 519--519
+Underfull \hbox (badness 10000) in paragraph at lines 554--554
 []\T1/Roboto-LF/condensed/n/10 Figura 6: |In-ter-ac-cio-nes en-tre va-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 519--519
+Underfull \hbox (badness 10000) in paragraph at lines 554--554
 \T1/Roboto-LF/condensed/n/10 ria-bles pa-ra ex-pli-car el vo-to de les
  []
 
-<img/centro.png, id=73, 488.5452pt x 376.2858pt>
+<img/centro.png, id=89, 488.5452pt x 376.2858pt>
 File: img/centro.png Graphic file (type png)
 <use img/centro.png>
-Package pdftex.def Info: img/centro.png  used on input line 521.
+Package pdftex.def Info: img/centro.png  used on input line 556.
 (pdftex.def)             Requested size: 384.00829pt x 295.76968pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 522--522
+Underfull \hbox (badness 10000) in paragraph at lines 557--557
 []\T1/Roboto-LF/condensed/n/10 Figura 7: |In-ter-ac-cio-nes en-tre va-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 522--522
+Underfull \hbox (badness 10000) in paragraph at lines 557--557
 \T1/Roboto-LF/condensed/n/10 ria-bles pa-ra ex-pli-car el vo-to de les
  []
 
-<img/NEA.png, id=74, 488.5452pt x 376.2858pt>
+<img/NEA.png, id=90, 488.5452pt x 376.2858pt>
 File: img/NEA.png Graphic file (type png)
 <use img/NEA.png>
-Package pdftex.def Info: img/NEA.png  used on input line 524.
+Package pdftex.def Info: img/NEA.png  used on input line 559.
 (pdftex.def)             Requested size: 384.00829pt x 295.76968pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 525--525
+Underfull \hbox (badness 10000) in paragraph at lines 560--560
 []\T1/Roboto-LF/condensed/n/10 Figura 8: |In-ter-ac-cio-nes en-tre va-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 525--525
+Underfull \hbox (badness 10000) in paragraph at lines 560--560
 \T1/Roboto-LF/condensed/n/10 ria-bles pa-ra ex-pli-car el vo-to de les
  []
 
-<img/NOA.png, id=75, 488.5452pt x 376.2858pt>
+<img/NOA.png, id=91, 488.5452pt x 376.2858pt>
 File: img/NOA.png Graphic file (type png)
 <use img/NOA.png>
-Package pdftex.def Info: img/NOA.png  used on input line 527.
+Package pdftex.def Info: img/NOA.png  used on input line 562.
 (pdftex.def)             Requested size: 384.00829pt x 295.76968pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 528--528
+Underfull \hbox (badness 10000) in paragraph at lines 563--563
 []\T1/Roboto-LF/condensed/n/10 Figura 9: |In-ter-ac-cio-nes en-tre va-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 528--528
+Underfull \hbox (badness 10000) in paragraph at lines 563--563
 \T1/Roboto-LF/condensed/n/10 ria-bles pa-ra ex-pli-car el vo-to de les
  []
 
-<img/cuyo.png, id=76, 540.3387pt x 418.4433pt>
+<img/cuyo.png, id=92, 540.3387pt x 418.4433pt>
 File: img/cuyo.png Graphic file (type png)
 <use img/cuyo.png>
-Package pdftex.def Info: img/cuyo.png  used on input line 530.
+Package pdftex.def Info: img/cuyo.png  used on input line 565.
 (pdftex.def)             Requested size: 384.01419pt x 297.38414pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 531--531
+Underfull \hbox (badness 10000) in paragraph at lines 566--566
 []\T1/Roboto-LF/condensed/n/10 Figura 10: |In-ter-ac-cio-nes en-tre va-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 531--531
+Underfull \hbox (badness 10000) in paragraph at lines 566--566
 \T1/Roboto-LF/condensed/n/10 ria-bles pa-ra ex-pli-car el vo-to de les
  []
 
-[5] [6 <./img/CABA.png (PNG copy)> <./img/centro.png (PNG copy)>] [7 <./img/NEA
-.png (PNG copy)> <./img/NOA.png (PNG copy)>]
-<img/patagonia.png, id=99, 488.5452pt x 376.2858pt>
+[6 <./img/CABA.png (PNG copy)>] [7 <./img/centro.png (PNG copy)> <./img/NEA.png
+ (PNG copy)>] [8 <./img/NOA.png (PNG copy)> <./img/cuyo.png (PNG copy)>]
+<img/patagonia.png, id=111, 488.5452pt x 376.2858pt>
 File: img/patagonia.png Graphic file (type png)
 <use img/patagonia.png>
-Package pdftex.def Info: img/patagonia.png  used on input line 534.
+Package pdftex.def Info: img/patagonia.png  used on input line 569.
 (pdftex.def)             Requested size: 384.00829pt x 295.76968pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 570--570
 []\T1/Roboto-LF/condensed/n/10 Figura 11: |In-ter-ac-cio-nes en-tre va-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 570--570
 \T1/Roboto-LF/condensed/n/10 ria-bles pa-ra ex-pli-car el vo-to de les
  []
 
@@ -982,7 +983,7 @@ Package bibentry Warning: You have used \nobibliography*
 (bibentry)                without a following \bibliography.
 (bibentry)                You may not be able to run BibTeX.
 
-[8 <./img/cuyo.png (PNG copy)> <./img/patagonia.png (PNG copy)>] (./reporte.aux
+[9 <./img/patagonia.png (PNG copy)>] (./reporte.aux
 LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
 )
@@ -993,9 +994,9 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 15993 strings out of 481346
- 239786 string characters out of 5918123
- 580572 words of memory out of 5000000
+ 15994 strings out of 481346
+ 239792 string characters out of 5918123
+ 579575 words of memory out of 5000000
  32467 multiletter control sequences out of 15000+600000
  489925 words of font info for 77 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -1021,10 +1022,10 @@ me/grosati/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></home
 /grosati/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></home/gr
 osati/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></home/grosa
 ti/.TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on reporte.pdf (8 pages, 1356625 bytes).
+Output written on reporte.pdf (9 pages, 1359198 bytes).
 PDF statistics:
- 207 PDF objects out of 1000 (max. 8388607)
- 138 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
+ 218 PDF objects out of 1000 (max. 8388607)
+ 148 compressed objects within 2 object streams
+ 34 named destinations out of 1000 (max. 500000)
  1096 words of extra memory for PDF output out of 10000 (max. 10000000)
 
